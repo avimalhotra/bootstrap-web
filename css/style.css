@@ -17,3 +17,11 @@ nav{ padding: 19px 0 20px !important;}
 
 .wrap-2{ background: #252B42; padding: 100px 0;}
 .sep{ width: 50px; height: 2px;}
+
+
+.courses{ color:#fff;}
+.sep2{ width: 94px; height: 7px;}
+
+.sales{ padding: 160px 180px;}
+.actions{ transform: translateX(-50%); }
+.actions a{ display: inline-block; width: 40px; line-height: 40px; border-radius: 50%; background: #fff; }
