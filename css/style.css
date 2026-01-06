@@ -6,11 +6,11 @@ body{
 
 .wrap-1{ background: url(../img/bg1.webp) no-repeat center top/cover #252B42;}
 nav{ padding: 19px 0 20px !important;}
-.navbar-brand{ margin: 0;}
+.navbar-brand{ margin: 0; font-weight: bold;}
 
 .banner{ max-width: 700px; margin: auto; color: #fff; padding: 80px 0 0 0;}
-.btn-primary, .bg-primary{ background: #23A6F0; }
-.text-primary{ color: #23A6F0 !important}
+/* .btn-primary, .bg-primary{ background: #23A6F0; } */
+.text-primary,.btn-link{ color: #23A6F0 !important}
 
 .features{ transform: translateY(60px);}
 .icon{ width: 70px; line-height: 76px;}
@@ -25,3 +25,8 @@ nav{ padding: 19px 0 20px !important;}
 .sales{ padding: 160px 180px;}
 .actions{ transform: translateX(-50%); }
 .actions a{ display: inline-block; width: 40px; line-height: 40px; border-radius: 50%; background: #fff; }
+
+
+@media screen and (max-width:767px){
+     .sales{ padding: 1rem;}
+}
